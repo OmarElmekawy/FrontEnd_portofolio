@@ -97,6 +97,28 @@ function Projects() {
               </a>
             </div>
           </div>
+          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex flex-col w-full">
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">
+              Form App
+            </h3>
+            <p className="text-gray-600 mb-4">Vue project</p>
+            <div className="mt-auto flex gap-4">
+              <a
+                href="https://creatingforminvue.netlify.app/form "
+                target="_blank"
+                className="text-blue-600 font-medium hover:underline"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/OmarElmekawy/Creating-Form-in-Vue"
+                target="_blank"
+                className="text-blue-600 font-medium hover:underline"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>
